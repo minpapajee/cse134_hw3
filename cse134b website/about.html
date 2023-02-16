@@ -6,10 +6,15 @@
     <meta name="description" content="Personal Portfolio" />
     <meta name="viewport" content="width-device-width, inital-scale=1.0" />
     <title>Aiden Jee | About</title>
+    <link rel="icon" href="favicon_io/favicon.ico" />
     <link rel="stylesheet" media ="screen" href="style.css" type="text/css" />
     <!-- Font Awesome 5.15.1 CSS -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
     <style>
+        a[href = "about.html"], a[href = "about.html"]:visited {
+            color:white;
+        }
+
         #appear {
             animation-name: textappear;
             animation-duration: 3.5s;
@@ -51,7 +56,7 @@
     <header>
         <!-- Logo Image -->
         <a href="index.html" title="Back to homepage">
-        <img src="AJ1.png" alt="Aiden Jee Logo"></a>
+        <img src="AJ1.svg" alt="Aiden Jee Logo"></a>
     
         <!-- Nav Bar -->
         <nav>
@@ -91,10 +96,10 @@
 
         <h3>Introduction</h3>
         <p>
-            I am studying Computer Science at the University of California, San Diego. 
-            I'm still figuring out where my degree will take me, but so far I'm very intersted in 
-            Front-End development and Machine Learning! I came from Korea when I was in elementary school, 
-            but I grew up in Torrance, California, so I am fluent in both Korean and English.
+            <i>Annyeonghaseyo!</i> I was born in Korea, but raised in Los Angeles Country. I'm a proud Korean American
+            studying <span class="interests">Computer Science</span> at the University of California, San Diego. 
+            I'm still figuring out where my degree will take me, but so far I've found interests in 
+            <span class="interests">Front-End development</span> and <span class="interests">Machine Learning</span>.
         </p>
 
         <hr>
@@ -110,9 +115,8 @@
             <li>CSE 8A. Introduction to Programming and Computational Problem-Solving</li>
             <li>CSE 21. Mathematics for Algorithms and Systems</li>
             <li>CSE 100. Advanced Data Structures</li>
-            <li>CSE 134B. Web Client Languages</li>
+            <li>CSE 110. Software Engineering</li>
             <li>CHEM 6B. General Chemistry II</li>
-            <li>COMM 10. Introduction to Communication</li>
             <li>MATH 20C. Calculus and Analytic Geometry for Science and Engineering</li>
             <li>MATH 173A. Optimization Methods for Data Science I </li>
         </ul>
@@ -123,10 +127,9 @@
        <h3>Hobbies</h3>
        <div class="hobbies">
         <p>
-            While my main focus is on programming, I'm human too! I enjoy various activities such as gaming,
-            listening to <span class="interests">korean hiphop</span>, <span class="interests">cooking</span>, and 
-            <span class="interests">lifting. There are only so many opportunities and so 
-            little time in our lives, so I want to be able to say I lived a cool life to my future kids. 
+            I enjoy various activities such as gaming, listening to <span class="interests">korean hiphop</span>, 
+            <span class="interests">cooking</span>, and <span class="interests">lifting. I've made many friends
+            with similar hobbies, and I hope to meet more in my future workplace. 
         </p>
 
         <picture>
@@ -140,9 +143,9 @@
 
         <h3>My favorite song</h3>
         <p>
-            When I'm driving, coding, or having a tough time, I like to play a song. I've shared this song with
-            my family, friends, and roomates so I'd like to share it to you too. It's a Korean song, so I admit,
-            it's weird to put on an english portfolio. Still, I hope you enjoy it.
+            When I'm driving, coding, or working out, I'm usually listening to music. A song in particular I like 
+            listening to is Titanium by Skinny Brown. Although it is in Korean, it's just a great song that I wanted
+            to share. 
         </p>
         <audio controls>
             <source src="titanium.mp3" type="audio/mp3">

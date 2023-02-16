@@ -25,9 +25,11 @@
 
 body {
     font-family: 'Poppins', Helvetica, sans-serif;
+    /*
     background-image: url("gray.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;*/
     font-size: 1.5vw;
     line-height: 1.5;
     color: #333;
@@ -37,9 +39,7 @@ body {
 
 header {
     display: flex;
-    width: 70%;
-    margin-left:15%;
-    margin-top: 10%;
+    width: 100%;
     background-color: lightblue;
     justify-content: space-between;
     align-items: center;
@@ -47,8 +47,12 @@ header {
     font-family: var(--title-font);
     font-size: 2vw;
     font-weight: bold;
+    position: sticky;
+    top: 0;
     
 }
+
+
 
 nav ul {
     display: flex;
@@ -71,16 +75,14 @@ a {
 }
 
 nav a, nav a:visited {
-    color: white;
+    color: black;
 }
 
 nav a:hover, nav a:active {
-    background-color: lightseagreen;
+    color: white;
   }
 
 main {
-    margin-left: 15%;
-    margin-right: 15%;
     background-color: white; 
     text-align: justify;
     text-justify: inter-word;
@@ -92,8 +94,6 @@ main p {
 }
 
 footer {
-    margin-left: 15%;
-    margin-right: 15%;
     background-color:white;
     padding: 3%;
     text-align: center;
@@ -133,8 +133,6 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 
 
