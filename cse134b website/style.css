@@ -134,6 +134,19 @@ footer {
     align-items: center;
 }
 
+@media (min-width:1000px) {
+    .hobbies {
+        display: flex;
+    }
+}
+@media (max-width:999px) {
+    .hobbies picture {
+        display:block; 
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+    }
+}
 
 
 
